@@ -1,6 +1,6 @@
 -
   name: Run script to selectively delete directories in a main directory
-  hosts: centos-server1
+  hosts: all
   tasks:
     - name: Run scripts on remote server
       script: ./selective-delete.sh ~/test hello
